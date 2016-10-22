@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:background="@android:color/darker_gray">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/folder"
+        android:id="@+id/imageView"
+        android:layout_weight="0.61" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="47dp">
+
+        <Button
+            android:text="THÊM"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnThem"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/add"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp" />
+
+        <Button
+            android:text="Xóa"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/remove"
+            android:id="@+id/btnXoa"
+            android:layout_weight="1"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:text="Sửa"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/modify"
+            android:id="@+id/btnSua"
+            android:layout_weight="1"
+            android:textSize="18sp" />
+
+        <Button
+            android:text="XEM"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/watch"
+            android:id="@+id/btnXem"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:layout_weight="0.35"></LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="62dp">
+
+        <TextView
+            android:text="ỨNG DỤNG QUẢN LÝ THƯ MỤC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textColor="@android:color/holo_red_dark" />
+
+        <TextView
+            android:text="Thực hiện: Nhóm 11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:id="@+id/textView3"
+            android:textAlignment="center"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="14sp"
+            android:textStyle="normal|italic" />
+    </LinearLayout>
+
+</LinearLayout>
