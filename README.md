@@ -1,2 +1,2 @@
-#ung dung quan ly tap tin thu muc
-nguoi dung co the sap xep di chuyen tao moi xoa thu muc
+#Ung dung quan ly tap tin thu muc
+Nguoi dung co the them moi, xoa, sua ten va xem lai danh sach cac thu muc co san hoac sau khi thuc hien cac chuc nang.
