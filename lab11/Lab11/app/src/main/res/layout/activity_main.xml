@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtTieuDe"
+        android:text="Nhập vào xâu các kí tự"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/edtNhap"
+        android:layout_weight="0.04" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="64dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/txtKetQua"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="71dp">
+
+        <Button
+            android:text="Enter"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnEnter"
+            android:layout_weight="1"
+            android:layout_width="wrap_content" />
+
+        <Button
+            android:text="Exit"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnExit"
+            android:layout_weight="1"
+            android:layout_width="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>
